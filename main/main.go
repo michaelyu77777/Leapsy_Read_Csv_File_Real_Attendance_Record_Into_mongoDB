@@ -59,11 +59,12 @@ func main() {
 	// runtime.GOMAXPROCS(runtime.NumCPU())
 
 	// 每天定時讀取寫入資料(幾時幾分幾秒)
-	parser := cron.NewParser(
-		cron.Second | cron.Minute | cron.Hour | cron.Dom | cron.Month | cron.Dow | cron.Descriptor,
-	)
+	// parser := cron.NewParser(
+	// 	cron.Second | cron.Minute | cron.Hour | cron.Dom | cron.Month | cron.Dow | cron.Descriptor,
+	// )
 
-	c := cron.New(cron.WithParser(parser))
+	// c := cron.New(cron.WithParser(parser))
+	c := cron.New()
 
 	// 取得排程
 	ScheduleTime := config.ScheduleTime
