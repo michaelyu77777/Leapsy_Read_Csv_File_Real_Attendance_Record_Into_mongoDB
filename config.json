@@ -4,7 +4,7 @@
     "DBName":"Leapsy_clock_in_system2",
     "CollectionName":"records",
     "DailyRecordFileFolderPath":"\\\\leapsy-nas3\\CheckInRecord\\",
-    "ScheduleTime": ["10 40 15 * * *",
-        "20 40 15 * * *",
-        "30 40 15 * * *"]
+    "ScheduleTime": ["00 35 09 * * *",
+        "00 05 19 * * *",
+        "00 10 00 * * *"]
 }
