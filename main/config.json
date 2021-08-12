@@ -1,7 +1,7 @@
 
 {
     "MongodbServer":"localhost:27017",
-    "DBName":"Leapsy_clock_in_system2",
+    "DBName":"Leapsy_clock_in_system",
     "CollectionName":"records",
     "DailyRecordFileFolderPath":"\\\\leapsy-nas3\\CheckInRecord\\",
     "ScheduleTime": ["00 35 09 * * *",
